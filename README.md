@@ -5,17 +5,19 @@ This is a simple example of creating a dapp that allows a user to post a greetin
 
 # Pre-Requisites
 
-You will need to ensure that you have the truffle suit (Ganache) Installed locally. 
+You will need to ensure that you have the truffle suit (Ganache) Installed locally.
 
-Metamask will also need to be configured to connect to your local chain (Ganache)
+MetaMask will also need to be configured to connect to your local chain (Ganache).
+
+The project is bootsrapped with react create
 
 
 # How to Use
 
-First you will need to test and depoy the contracts using the following commands
+First you will need to test and deploy the contracts using the following commands
 
-` 
-truffle test 
+`
+truffle test
 `
 
 `
@@ -26,13 +28,13 @@ truffle migrate --reset
 Once your smart contracts have been deployed to your local chain, the front end can be initialized:
 
 
-You will need to install dependencies using 
+You will need to install dependencies using
 
 `
 npm install
 `
 
-Once all dependancies have been installed, you can then start the front end using 
+Once all dependancies have been installed, you can then start the front end using
 
 `
 npm start
