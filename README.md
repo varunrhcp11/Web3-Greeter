@@ -21,6 +21,8 @@ truffle test
 `
 truffle migrate --reset
 `
+
+
 Once your smart contracts have been deployed to your local chain, the front end can be initialized:
 
 
